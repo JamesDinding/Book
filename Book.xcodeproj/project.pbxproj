@@ -13,6 +13,14 @@
 		57C9FC8224A047AA004D70AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C9FC8124A047AA004D70AA /* Assets.xcassets */; };
 		57C9FC8524A047AA004D70AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C9FC8424A047AA004D70AA /* Preview Assets.xcassets */; };
 		57C9FC8824A047AA004D70AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C9FC8624A047AA004D70AA /* LaunchScreen.storyboard */; };
+		57C9FC9024A061C0004D70AA /* NPCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C9FC8F24A061C0004D70AA /* NPCView.swift */; };
+		57C9FC9224A061D1004D70AA /* islandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C9FC9124A061D1004D70AA /* islandView.swift */; };
+		57C9FC9424A064F5004D70AA /* NPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C9FC9324A064F5004D70AA /* NPC.swift */; };
+		57C9FC9624A06501004D70AA /* island.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C9FC9524A06501004D70AA /* island.swift */; };
+		57C9FC9824A0698E004D70AA /* NPCDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C9FC9724A0698E004D70AA /* NPCDetail.swift */; };
+		57C9FC9A24A0699B004D70AA /* isLandDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C9FC9924A0699B004D70AA /* isLandDetail.swift */; };
+		57C9FC9C24A06B75004D70AA /* NPCRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C9FC9B24A06B75004D70AA /* NPCRow.swift */; };
+		57C9FC9E24A077D4004D70AA /* isLandRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C9FC9D24A077D4004D70AA /* isLandRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		57C9FC8424A047AA004D70AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		57C9FC8724A047AA004D70AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57C9FC8924A047AA004D70AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C9FC8F24A061C0004D70AA /* NPCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPCView.swift; sourceTree = "<group>"; };
+		57C9FC9124A061D1004D70AA /* islandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = islandView.swift; sourceTree = "<group>"; };
+		57C9FC9324A064F5004D70AA /* NPC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPC.swift; sourceTree = "<group>"; };
+		57C9FC9524A06501004D70AA /* island.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = island.swift; sourceTree = "<group>"; };
+		57C9FC9724A0698E004D70AA /* NPCDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPCDetail.swift; sourceTree = "<group>"; };
+		57C9FC9924A0699B004D70AA /* isLandDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isLandDetail.swift; sourceTree = "<group>"; };
+		57C9FC9B24A06B75004D70AA /* NPCRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPCRow.swift; sourceTree = "<group>"; };
+		57C9FC9D24A077D4004D70AA /* isLandRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isLandRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +56,8 @@
 		57C9FC6F24A047A7004D70AA = {
 			isa = PBXGroup;
 			children = (
+				57C9FC9524A06501004D70AA /* island.swift */,
+				57C9FC9324A064F5004D70AA /* NPC.swift */,
 				57C9FC7A24A047A7004D70AA /* Book */,
 				57C9FC7924A047A7004D70AA /* Products */,
 			);
@@ -63,6 +81,12 @@
 				57C9FC8624A047AA004D70AA /* LaunchScreen.storyboard */,
 				57C9FC8924A047AA004D70AA /* Info.plist */,
 				57C9FC8324A047AA004D70AA /* Preview Content */,
+				57C9FC8F24A061C0004D70AA /* NPCView.swift */,
+				57C9FC9124A061D1004D70AA /* islandView.swift */,
+				57C9FC9724A0698E004D70AA /* NPCDetail.swift */,
+				57C9FC9924A0699B004D70AA /* isLandDetail.swift */,
+				57C9FC9B24A06B75004D70AA /* NPCRow.swift */,
+				57C9FC9D24A077D4004D70AA /* isLandRow.swift */,
 			);
 			path = Book;
 			sourceTree = "<group>";
@@ -146,9 +170,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57C9FC9024A061C0004D70AA /* NPCView.swift in Sources */,
 				57C9FC7C24A047A7004D70AA /* AppDelegate.swift in Sources */,
+				57C9FC9C24A06B75004D70AA /* NPCRow.swift in Sources */,
 				57C9FC7E24A047A7004D70AA /* SceneDelegate.swift in Sources */,
 				57C9FC8024A047A7004D70AA /* ContentView.swift in Sources */,
+				57C9FC9A24A0699B004D70AA /* isLandDetail.swift in Sources */,
+				57C9FC9E24A077D4004D70AA /* isLandRow.swift in Sources */,
+				57C9FC9624A06501004D70AA /* island.swift in Sources */,
+				57C9FC9224A061D1004D70AA /* islandView.swift in Sources */,
+				57C9FC9824A0698E004D70AA /* NPCDetail.swift in Sources */,
+				57C9FC9424A064F5004D70AA /* NPC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
